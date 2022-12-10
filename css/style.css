@@ -1,0 +1,96 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+
+  
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(0, 45, 58), rgb(0, 3, 5));
+  text-align: center;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.container-main {
+  width: 60%;  
+  display: inline-block;
+  background-color: rgb(3, 104, 70);
+  border-radius: 5px;
+  text-align: center;
+  margin: 15px;
+  border: 1px solid;
+  box-shadow: 1px 1px rgb(255, 255, 255);
+  font-size: min(20px, 3vw);
+}
+
+
+
+.txt-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 30%;
+  height: 30%;
+}
+
+input,
+select,
+textarea {
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  width: 30%;
+  height: 50px;
+  margin: 15px 0 15px 0;
+  border: none;
+  background-color: yellowgreen;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: min(20px, 2vw);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.txt-resultado {
+  font-weight: bold;
+  background-color: rgb(49, 48, 48);
+  color: white;
+}
+
+span {
+  animation: animate 1.5s linear infinite;
+  animation-play-state: running;
+  color: gold;
+}
+
+/* @keyframes animate {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 10;
+  }
+} */
+
+footer{
+    color: green;
+    font-weight: bold;
+}
