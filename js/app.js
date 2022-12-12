@@ -29,19 +29,11 @@ function calcularIMC() {
       txtResult.innerHTML = "Obesidade classe 3";
       txtResult.style.color = "DarkRed";
     }
-  
-    number =NaN
-    if (isNaN(resultado)) number = 0
-  
-    if(number==0){
-      const resultado=number
+
+    if(pesoNumber==0 | alturaNumber==0){
       txtResult.innerHTML = "Insira um valor válido!";
       alert("VALORES INVÁLIDOS")
-      console.log(resultado)
   
-    }else {
-  
-      console.log(resultado)
     }
   
   }
