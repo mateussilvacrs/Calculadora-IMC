@@ -5,10 +5,8 @@ function calcularIMC() {
     const resultado = (pesoNumber / alturaNumber ** 2);
     const txtResult = document.getElementById("txt-result");
     const txtResultado = document.getElementById("txt-resultado")
-  
-  
+ 
     
-  
   if (resultado < 18.5) {
       txtResult.innerHTML = "Abaixo do peso normal";
     } else if (resultado < 24.9) {
