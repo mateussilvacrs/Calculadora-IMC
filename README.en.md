@@ -1,5 +1,3 @@
-[🇺🇸 View in English](./README.en.md)
-
 #
 
 <div align="center">
@@ -19,11 +17,11 @@
   </p>
 </div>
 
-## ❕SOBRE
+## ❕About
 
 Este é meu aplicativo de calculadora de IMC, que calcula o Índice de Massa Corporal para avaliar se a pessoa está dentro do peso considerado saudável para a sua altura.
 
-## ▶ Demonstração
+## ▶ Demo
 
 🔗 https://mateussilvacrs.github.io/Calculadora-IMC/
 
@@ -34,32 +32,33 @@ Este é meu aplicativo de calculadora de IMC, que calcula o Índice de Massa Cor
  <img src="https://i.postimg.cc/HLjJMPRj/screenshot-2.png">
 </div>
 
-## ⚙ Funcionalidades
+## ⚙ Features
 
-- Calcula seu IMC
-- Multiplataforma (desktop, celular, tablet etc.)
+Calculates your BMI
+
+Multiplatform (desktop, mobile, tablet, etc.)
 
 ## ❓ FAQ
 
-**Como usar a aplicação?**
+**How do I use the application?**
 
-Digite sua altura em centímetros (cm), sem pontos ou vírgulas. Por exemplo, se você tem 1,80 m, digite apenas 180. No campo de peso, você pode incluir pontos ou vírgulas.
+Enter your height in centimeters (cm), without dots or commas. For example, if you are 1.80 m tall, just type 180. In the weight field, you can use dots or commas.
 
-**Como analisar o resultado**
+**How to interpret the result**
 
-Após inserir os dados, clique em "Calcular". No campo "Resultado", aparecerão alguns textos com o resultado: "Abaixo do peso normal", "Peso normal", "Excesso de peso" e "Obesidade classe (1, 2 ou 3)".
+After entering the data, click on "Calculate". In the "Result" field, some text will appear indicating: "Below normal weight", "Normal weight", "Overweight", or "Obesity class (1, 2, or 3)".
 
-## 💻 Tecnologias Usadas
+## 💻 Technologies Used
 
-**Front-end:** HTML, CSS e JavaScript
+**Front-end:** HTML, CSS, and JavaScript
 
-## 🤔 Por que este projeto foi criado?
+## 🤔 Why was this project created?
 
-Eu criei este projeto em 2022 para fins educativos. Com ele, reforcei alguns conceitos que havia aprendido de HTML, CSS e JavaScript. Mesmo sendo um projeto simples, foi um grande desafio para mim, que ainda não me dedicava tanto à área de programação.
+I created this project in 2022 for educational purposes. Through it, I reinforced some concepts I had learned about HTML, CSS, and JavaScript. Even though it's a simple project, it was a big challenge for me at the time, as I wasn’t yet very dedicated to programming.
 
-### O que aprendi?
+**What did I learn?**
 
-- Manipulação do DOM
-- Geração de caracteres aleatórios
-- Formatação de código
-- Funções e condições
+- DOM manipulation
+- Generating random characters
+- Code formatting
+- Functions and conditions
